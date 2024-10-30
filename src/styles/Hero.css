@@ -1,0 +1,54 @@
+/* styles/Hero.css */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    color: gainsboro;
+    padding-top: 110px;
+  }
+  
+  .hero-text {
+    flex: 1;
+    font-size:x-large;
+  }
+
+  .hero-text-padding{
+    padding-top: 10px;
+    color: gray;
+    font-size: medium;
+  }
+  .full-stack-developer{
+    color:ghostwhite;
+    padding-top: 10px;
+    font-size: medium;
+  }
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: 300px;
+    max-width: 300px;
+    border-radius: 10%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .hero-image {
+      margin-top: 1rem;
+    }
+    .heading-text-font{
+      font-size: 2rem;
+    }
+  }
+  

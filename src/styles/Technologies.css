@@ -1,0 +1,44 @@
+/* styles/Technologies.css */
+
+.technologies {
+    text-align: center;
+    padding: 2rem 0;
+    color: gainsboro;
+    padding-top: 110px;
+  }
+  
+  .technologies h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 50px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  
+  .tech-icon {
+    font-size: 3rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.1);
+    color: #61dafb; /* Example hover color */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .tech-icon {
+      font-size: 2.5rem;
+    }
+    .icons{
+      gap: 2rem; 
+      padding-top: 10px;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+/* styles/globals.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global color scheme */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Dark background */
+    color: gainsboro; /* Light text color */
+  }
+  
+  /* Container styling */
+  .container {
+    margin: 0 auto;
+    padding: 0 4rem;
+    max-width: 1200px; /* Optional, for large screens */
+  }
+  .heading-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

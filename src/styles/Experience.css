@@ -1,0 +1,67 @@
+/* styles/Experience.css */
+
+.experience {
+    padding: 2rem 0;
+    color: gainsboro;
+    padding-top: 110px;
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 50px;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .year {
+    font-weight: bold;
+    width: 25%;
+    text-align: left;
+  }
+  
+  .details {
+    width: 60%;
+    padding-left: 4rem;
+  }
+  
+  .details h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .details p {
+    margin: 0.5rem 0;
+  }
+  .experience-skills{
+    color: purple;
+  }
+  .experience-text-padding{
+    padding-top: 5px;
+    color: gray;
+    font-size: medium;
+  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .experience-item {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .year,
+    .details {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 0.5rem;
+    }
+  
+    .year {
+      font-weight: bold;
+    }
+  }
+  
