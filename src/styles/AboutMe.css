@@ -1,58 +1,57 @@
 /* styles/AboutMe.css */
 
 .about-me {
-    padding: 2rem 0;
-    color: gainsboro;
-    padding-top: 90px;
+  padding: 2rem 0;
+  color: gainsboro;
+  padding-top: 90px;
 
-  }
-  
-  .about-me h2 {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    padding-bottom: 90px;
-  }
-  
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 90px;
+}
+
+.about-me-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-me-image {
+  flex: 1;
+}
+
+.about-me-image img {
+  width: 100%;
+  height: 200px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+.about-me-text {
+  flex: 2;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+.about-text-padding{
+  padding-top: 5px;
+  color: gray;
+  font-size: medium;
+  max-width: 90%;
+  text-align: left;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
   .about-me-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
   }
-  
-  .about-me-image {
-    flex: 1;
-  }
-  
-  .about-me-image img {
-    width: 100%;
-    height: 200px;
-    max-width: 200px;
-    border-radius: 10px;
-  }
-  
+
   .about-me-text {
-    flex: 2;
-    padding-left: 2rem;
-    font-size: 1.1rem;
+    padding-left: 0;
+    margin-top: 1rem;
   }
-  .about-text-padding{
-    padding-top: 5px;
-    color: gray;
-    font-size: medium;
-    max-width: 90%;
-    text-align: left;
-  }
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .about-me-content {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .about-me-text {
-      padding-left: 0;
-      margin-top: 1rem;
-    }
-  }
-  
+}
